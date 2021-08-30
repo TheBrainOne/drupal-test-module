@@ -1,0 +1,12 @@
+<?php
+
+function test_theme() {
+  return [		
+    'index' => [
+      'template' => 'index',
+      'variables' => [
+        'data' => 'Awesome custom module'
+      ],
+    ],
+  ];
+}

@@ -1,0 +1,7 @@
+test.index_page:
+  path: "/test"
+  defaults:
+    _controller: '\Drupal\test\Controller\IndexPageController::render'
+    _title: "Test Module"
+  requirements:
+    _permission: "access content"
